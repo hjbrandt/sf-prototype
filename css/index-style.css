@@ -1,0 +1,194 @@
+/* START DEFAULT TAGS */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  border: 20px solid #fff;
+  color: #333;
+  overflow-x: hidden;
+}
+
+@import 'https://fonts.googleapis.com/css?family=Lato:400, 700|Karla:400';
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.2;
+  opacity: 1;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  letter-spacing: -0.72px;
+  word-spacing: 0px;
+  text-transform: none;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+  opacity: 1;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  letter-spacing: -0.72px;
+  word-spacing: 0px;
+  text-transform: none;
+}
+
+h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+  opacity: 1;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  text-transform: none;
+}
+
+p {
+  padding: 1rem 0;
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  opacity: 0.7;
+  margin-top: 0px;
+  margin-bottom: 25px;
+  letter-spacing: -0.3px;
+  word-spacing: -0.1px;
+  text-transform: none;
+}
+
+/* END DEFAULT TAGS */
+
+/* START NAVIGATION */
+
+.navbar-item {
+  font-size: 1.2rem;
+  text-col: #231f20;
+}
+
+/* END NAVIGATION */
+
+/* START SELECT SECTION */
+
+.select-membership {
+  text-align: center;
+  overflow: hidden;
+  height: 70vh;
+  max-height: 800px;
+}
+
+.select-membership img {
+  opacity: 0.6;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+.select-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+
+#select-direct button {
+  color: #fff;
+  background-color: #f26122;
+}
+
+#select-club button {
+  color: #fff;
+  background-color: #0082ca;
+}
+
+/* Newsletter */
+
+#newsletter {
+  margin: auto;
+  text-align: center;
+  height: 30vh;
+}
+
+.newsletter-content {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.newsletter-btn {
+  color: #fff;
+  background-color: #f26122;
+}
+
+.newsletter-form {
+  padding-bottom: 30px;
+}
+
+/* END SELECT SECTION */
+
+/* START MEMBER SECTION */
+#members {
+  background-color: #231f20;
+  align-content: center;
+  padding: 30px 0;
+}
+
+#members h3 {
+  color: #fff;
+  text-align: center;
+}
+
+.member {
+  display: flex;
+}
+
+.member img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.member-name {
+  color: #fff;
+}
+
+.member-type {
+  color: #f26122;
+}
+/* END MEMBER SECTION */
+
+/* START MEMBERSHIP SECTION */
+#membership h3 {
+  text-align: center;
+}
+/* END MEMBERSHIP SECTION */
+
+/* START INFORMATION SECTION */
+#information {
+  height: 500px;
+  background-color: #333;
+}
+/* END INFORMATION SECTION */

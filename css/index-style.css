@@ -129,10 +129,6 @@ p {
   z-index: -1;
 }
 
-.select-membership img:hover {
-  opacity: 0.7;
-}
-
 .select-content {
   position: absolute;
   top: 50%;
@@ -354,7 +350,7 @@ p {
 }
 
 .information-frame {
-  background: #0082ca;
+  background: #3d99cc;
   overflow: hidden;
   padding: 1rem;
 }
@@ -378,7 +374,7 @@ p {
   text-align: center;
 }
 
-.cta-content button {
+.cta-btn {
   margin-bottom: 4rem;
   min-width: 300;
 }

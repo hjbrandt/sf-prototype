@@ -1,0 +1,354 @@
+/* START DEFAULT TAGS */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #231f20;
+  overflow-x: hidden;
+}
+
+@import 'https://fonts.googleapis.com/css?family=Lato:400, 700|Karla:400';
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 3em;
+  font-weight: 600;
+  line-height: 1.2;
+  opacity: 1;
+  margin-top: 0;
+  margin-bottom: 10px;
+  letter-spacing: -0.72px;
+  word-spacing: 0;
+  text-transform: none;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: 1.2;
+  opacity: 1;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  letter-spacing: -0.72px;
+  word-spacing: 0;
+  text-transform: none;
+}
+
+h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.25em;
+  font-weight: 400;
+  line-height: 1.2;
+  opacity: 1;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  letter-spacing: 0;
+  word-spacing: 0;
+  text-transform: none;
+}
+
+p {
+  padding: 1rem 0;
+  font-family: "Karla", sans-serif;
+  font-size: 1.125em;
+  font-weight: 400;
+  line-height: 1.6;
+  opacity: 0.8;
+  margin-top: 0;
+  margin-bottom: 25px;
+  letter-spacing: -0.3px;
+  word-spacing: -0.1px;
+  text-transform: none;
+}
+
+/* END DEFAULT TAGS */
+
+/* START NAVIGATION */
+.navbar-container {
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  width: 100%;
+  z-index: 10;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.nsf-logo {
+  width: 100%;
+}
+
+.nav-link {
+  color: #231f20;
+}
+
+.nav-item a {
+  font-family: "Lato", sans-serif;
+  font-size: 1.125em;
+  font-weight: 400;
+  opacity: 1;
+  letter-spacing: 0;
+  word-spacing: 0;
+  text-transform: none;
+}
+
+/* END NAVIGATION */
+
+/* START MEMBERSHIP */
+.membership-container {
+  margin-top: 4rem;
+
+  background: #3d99cc;
+}
+
+.membership-content {
+  margin: 4rem 0;
+  padding: 4rem 0;
+  background: #fff;
+}
+
+.membership-content h2 {
+  margin-bottom: 2rem;
+  color: #231f20;
+  text-align: center;
+}
+.membership-content p {
+  color: #231f20;
+}
+
+.direct-btn {
+  margin-bottom: 2rem;
+  height: 60px;
+  width: 345px;
+  background-color: transparent;
+  border: 3px solid #0082ca;
+  border-radius: 0;
+  color: #0082ca;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.direct-btn:hover {
+  color: #fff;
+  background: #0082ca;
+  cursor: pointer;
+}
+
+/* END MEMBERSHIP */
+
+/* START COMPARE */
+.compare-container {
+  height: 800px;
+}
+/* END COMPARE */
+
+/* START QUOTE */
+.quote-container {
+  background: #231f20;
+}
+.quote-img {
+  width: 100%;
+}
+
+.quote-text {
+  color: #fff;
+}
+
+.quote-name {
+  color: #fff;
+}
+.quote-name span {
+  color: #0082ca;
+}
+/* END QUOTE */
+
+/* START INFORMATION SECTION */
+
+.information-frame {
+  background: #3d99cc;
+  padding: 1rem;
+}
+
+.frame-2 {
+  background: #3d99cc;
+}
+
+.information-frame img {
+  width: 100%;
+}
+
+.information-text {
+  padding: 2rem;
+}
+/* END INFORMATION SECTION */
+
+/* START NEWSLETTER */
+.newsletter-container {
+  background: #f4956c;
+  margin-bottom: 4rem;
+}
+
+.newsletter-content {
+  margin: 4rem 0;
+  padding: 8rem 0;
+  background: #231f20;
+  text-align: center;
+  align-items: center;
+}
+
+.newsletter-content h2 {
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.newsletter-text {
+  margin: 0;
+  color: #fff;
+}
+
+.newsletter-input {
+  height: 60px;
+  border: 3px solid #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.2;
+  opacity: 1;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  letter-spacing: 0;
+  word-spacing: 0;
+  text-transform: none;
+  background: #231f20;
+  color: #fff;
+  padding: 0 15px;
+}
+
+.newsletter-btn {
+  height: 3.75rem;
+  background-color: transparent;
+  border: 3px solid #fff;
+  border-radius: 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+.newsletter-btn:hover {
+  color: #fff;
+  background: #f26122;
+  border: 3px solid #f26122;
+  cursor: pointer;
+}
+/* END NEWSLETTER */
+
+/* START CTA */
+.cta-content p {
+  text-align: center;
+}
+
+.cta-content button {
+  margin-bottom: 4rem;
+  min-width: 300;
+}
+
+.cta-btn {
+  margin-bottom: 2rem;
+  height: 60px;
+  width: 345px;
+  background-color: transparent;
+  border: 3px solid #231f20;
+  border-radius: 0;
+  color: #231f20;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.cta-btn:hover {
+  color: #fff;
+  background: #231f20;
+  border: 3px solid #231f20;
+  cursor: pointer;
+}
+/* END CTA */
+
+/* START FOOTER */
+footer {
+  padding: 2rem 0;
+  z-index: 10;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16), 0 -1px 6px rgba(0, 0, 0, 0.23);
+}
+
+.footer-branding {
+  margin: 0;
+  padding: 1rem;
+}
+
+.footer-link {
+  margin: 0;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1em;
+}
+
+.footer-info {
+  font-size: 0.75em;
+  text-align: center;
+}
+
+a {
+  color: inherit;
+}
+
+/* END FOOTER */
+
+@media only screen and (min-width: 720px) {
+  .information-container {
+    margin: 4rem 0;
+  }
+
+  .frame-1 {
+    padding: 2rem 2rem 2rem 0;
+  }
+  .frame-2 {
+    padding: 2rem 0 2rem 2rem;
+  }
+
+  .members-container {
+    margin-bottom: 4rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .benefit-tile {
+    min-height: 10rem;
+  }
+  .frame-1 {
+    padding: 2rem 2rem 2rem 0;
+  }
+  .frame-2 {
+    padding: 2rem 0 2rem 2rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .frame-1 {
+    padding: 4rem 4rem 4rem 0;
+  }
+  .frame-2 {
+    padding: 4rem 0 4rem 4rem;
+  }
+  .information-container {
+    margin-bottom: 4rem;
+  }
+  .information-text {
+    padding: 2.5rem;
+  }
+}

@@ -10,25 +10,24 @@
   <link rel="stylesheet" href="css/index-style.css">
   <title>Landing Prototype</title>
 </head>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt modi nisi harum sequi magnam atque!
 
 <body>
 
   <!-- START NAVIGATION -->
   <div class="navbar-container">
     <nav class="navbar">
-      <a class="navbar-brand" href="#">
-        <img class="nsf-logo" src="/img/SB_Logo_black.png" height="20" alt="">
+      <a class="navbar-brand col-lg-4 col-md-6 col-sm-12" href="/index.html">
+        <img class="nsf-logo" src="/img/SB_Logo_black.png" alt="">
       </a>
       <ul class="nav justify-content-end">
         <li class="nav-item">
-          <a class="nav-link active" href="#">Direktemedlem</a>
+          <a class="nav-link active" href="/medlemskap/direkte.html">Direktemedlem</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="#">Klubbmedlem</a>
+          <a class="nav-link active" href="/medlemskap/klubb.html">Klubbmedlem</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Kontakt Oss</a>
+          <a class="nav-link" href="/kontaktoss.html">Kontakt Oss</a>
         </li>
         <li class="nav-item">
           <a class="nav-link disabled" href="#">Login</a>
@@ -45,109 +44,130 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt modi nisi harum se
         <img src="img/dir_img.jpg" alt="">
         <div class="select-content">
           <h1>Direktemedlem</h1>
-          <button class="btn direct-btn" type="button">Les mer</button>
-          <p>Bli medlem av Snowboardforbundet for 50,-
-            <br>og få en rekke fordeler.</p>
+          <a href="medlemskap/direkte.html">
+            <button class="btn direct-btn" type="button">Les mer</button>
+          </a>
+          <p>Bli medlem av Snowboardforbundet for 50,- og få en rekke fordeler.</p>
         </div>
       </div>
-      <div id="select-club" class="select-membership col-lg-6">
+      <div id="select-club" class="select-membership col-sm-12 col-lg-6">
         <img src="img/club_img.jpg" alt="">
         <div class="select-content">
           <h1>Klubbmedlem</h1>
-          <button class="btn club-btn" type="button">Les mer</button>
+          <a href="medlemskap/klubb.html">
+            <button class="btn club-btn" type="button">Les mer</button>
+          </a>
           <p>Finn klubben i ditt hjerte og bli med på treninger.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- END SELECT -->
-  <div class="container-fluid">
-
-  </div>
-
-  <!-- START NEWSLETTER -->
-  <section class="newsletter-container container-fluid">
-    <div class="row align-items-center justify-content-center">
-      <div class="newsletter-wrap col-lg-12 col-md-12">
-        <div class="newsletter-content row align-items-center justify-content-center">
-          <div class="col-12">
-            <h2>NYHETSBREV</h2>
-          </div>
-          <div class="col-12">
-            <p class="newsletter-text">Meld deg på nyhetsbrevet vårt og få informasjon om hva som skjer i snowboard-Norge.
-            </p>
-          </div>
-          <form class="form-group newsletter-form col-12" action="">
-            <input class="newsletter-input align-baseline" type="text" name="email" placeholder="DIN@EPOST.NO">
-            <input class="btn newsletter-btn align-baseline" type="submit" value="SEND INN">
-          </form>
         </div>
       </div>
     </div>
   </section>
   <!-- END NEWSLETTER -->
 
+  <!-- START HEADLINE -->
+  <div class="headline-container container-fluid">
+    <div class="headline-content">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aperiam illum iure, ab praesentium quasi eveniet necessitatibus
+        soluta libero aliquid.</p>
+    </div>
+  </div>
+  <!-- END HEADLINE -->
+
+  <!-- START NEWSLETTER -->
+  <section class="newsletter-container container-fluid">
+    <div class="row justify-content-center">
+      <div class="newsletter-content row align-items-center justify-content-center col-sm-12 col-md-10">
+        <h2 class="col-md-8">NYHETSBREV</h2>
+        <p class="newsletter-text col-lg-8 col-md-8 col-sm-10">Meld deg på nyhetsbrevet vårt og få informasjon om hva som skjer i snowboard-Norge.
+        </p>
+        <form class="form-group newsletter-form col-md-12" action="">
+          <input class="newsletter-input align-baseline  col-md-6 col-sm-8 col-sm-11" type="text" name="email" placeholder="din@epost.no">
+          <input class="btn newsletter-btn align-baseline col-md-4 col-sm-8 col-sm-11" type="submit" value="SEND INN">
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- END NEWSLETTER -->
+
+  <section class="information-container container-fluid">
+    <div class="row align-items-center">
+      <div class="information-frame frame-1 col-sm-12 col-md-6 col-lg-7">
+        <img src="img/showcase.jpg" alt="">
+      </div>
+      <div class="information-text col-sm-12 col-md-6 col-lg-5">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit ullam atque, odio eius ab minus!
+          <br>
+          <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, aspernatur unde? Recusandae mollitia veritatis
+          dolorum, ullam perspiciatis iure, cum magnam nemo quaerat dolores quas sed voluptate quos deserunt unde illum.
+          <br>
+          <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit ullam atque, odio eius ab minus!</p>
+      </div>
+    </div>
+  </section>
+
   <!-- START BENEFIT -->
-  <section id="benefit" class="container-fluid">
-    <div class="row">
-      <div class="benefit-tile benefit-info col-lg-3 col-md-4 col-sm-6 col-xs-6">
-        <h3>Medlemsfordeler</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium maxime consequuntur accusantium quis ullam</p>
-      </div>
-      <div class="benefit-tile benefit-direct col-lg-3 col-md-4 col-sm-6 col-xs-6">
-        <h3>Direkte</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium maxime consequuntur accusantium quis ullam</p>
-      </div>
-      <div class="benefit-tile benefit-direct col-lg-3 col-md-4 col-sm-6 col-xs-6">
-        <h3>Direkte</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium maxime consequuntur accusantium quis ullam</p>
-      </div>
-      <div class="benefit-tile benefit-club col-lg-3 col-md-4 col-sm-6 col-xs-6">
-        <h3>Klubb</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium maxime consequuntur accusantium quis ullam</p>
-      </div>
-      <div class="benefit-tile benefit-direct col-lg-3 col-md-4 col-sm-6 col-xs-6">
-        <h3>Direkte</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium maxime consequuntur accusantium quis ullam</p>
-      </div>
-      <div class="benefit-tile benefit-club col-lg-3 col-md-4 col-sm-6 col-xs-6">
-        <h3>Klubb</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium maxime consequuntur accusantium quis ullam</p>
-      </div>
-      <div class="benefit-tile benefit-direct col-lg-3 col-md-4 col-sm-6 col-xs-6">
-        <h3>Direkte</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium maxime consequuntur accusantium quis ullam</p>
-      </div>
-      <div class="benefit-tile benefit-club col-lg-3 col-md-4 col-sm-6 col-xs-6">
-        <h3>Klubb</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium maxime consequuntur accusantium quis ullam</p>
+  <section class="benefit-container container-fluid">
+    <div class="row justify-content-center">
+      <div class="benefit-content row col-md-10 col-sm-12">
+        <div class="benefit-tile benefit-info col-lg-4 col-md-4 col-sm-6">
+          <h3>Medlemsfordeler</h3>
+          <p>Alle disse fordelene er inkludert når man blir medlem av snowboardforbundet</p>
+        </div>
+        <div class="benefit-tile benefit-direct col-lg-4 col-md-4 col-sm-6">
+          <h3>Sweet Protection</h3>
+          <p>15 % rabatt</p>
+        </div>
+        <div class="benefit-tile benefit-direct col-lg-4 col-md-4 col-sm-6">
+          <h3>Session</h3>
+          <p>10-15 % rabatt på alle butikker hele året</p>
+        </div>
+        <div class="benefit-tile benefit-direct col-lg-4 col-md-4 col-sm-6">
+          <h3>SAS</h3>
+          <p>SAS tilbyr sportsreiser til alle medlemmer</p>
+        </div>
+        <div class="benefit-tile benefit-direct col-lg-4 col-md-4 col-sm-6">
+          <h3>Nordic Choice Hotels</h3>
+          <p>Opptil 20 % på overnatting i hele verden</p>
+        </div>
+        <div class="benefit-tile benefit-club col-lg-4 col-md-4 col-sm-6">
+          <h3>Forsikring</h3>
+          <p>Kjør smart. Gode priser på gode forsikringer
+            <br> (NB! Kun klubbmedlemmer)
+          </p>
+        </div>
+        <div class="benefit-tile benefit-direct col-lg-4 col-md-4 col-sm-6">
+          <h3>Nordsjø Kabelpark</h3>
+          <p>Dagskort (inkludert wakeboard og våtdrakt til 250 kr. Ordinærpris 550</p>
+        </div>
+        <div class="benefit-tile benefit-club col-lg-4 col-md-4 col-sm-6">
+          <h3>Klubb</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium maxime consequuntur accusantium quis ullam</p>
+        </div>
       </div>
     </div>
   </section>
   <!-- END BENEFIT -->
 
   <!-- START MEMBERS -->
-  <section id="members" class="container-fluid">
-    <div class="members-container container">
-      <h2>Medlemmer av Snowboardforbundet</h2>
-      <div class="row">
-        <div class="member col-lg-4 col-md-6 col-xs-12">
-          <div class="img-wrapper">
-            <img class="member-image" src="img/stale_sandbech_320x320.jpg" alt="Portrait of Stale Sandbach">
-          </div>
+  <section class="members-container container-fluid">
+    <div class="members-content container">
+      <h2>MEDLEMMER</h2>
+      <div class="row justify-content-center">
+        <div class="member col-xl-4 col-lg-6 col-md-6 col-sm-12">
+          <img class="member-image" src="img/stale_sandbech_320x320.jpg" alt="Portrait of Stale Sandbach">
           <div class="member-text">
             <p class="member-name">Torstein Horgmo</p>
             <p class="member-type">Direktemedlem</p>
           </div>
         </div>
-        <div class="member col-lg-4 col-md-6 col-xs-12">
+        <div class="member col-xl-4 col-lg-6 col-md-6 col-sm-12">
           <img class="member-image" src="img/stale_sandbech_320x320.jpg" alt="Portrait of Stale Sandbach">
           <div class="member-text">
             <p class="member-name">Ståle Sandbech</p>
             <p class="member-type">Klubbmedlem, BSK</p>
           </div>
         </div>
-        <div class="member col-lg-4 col-md-6 col-xs-12">
+        <div class="member col-xl-4 col-lg-6 col-md-6 col-sm-12">
           <img class="member-image" src="img/stale_sandbech_320x320.jpg" alt="Portrait of Stale Sandbach">
           <div class="member-text">
             <p class="member-name">Markus Kleveland</p>
@@ -155,21 +175,21 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt modi nisi harum se
           </div>
         </div>
 
-        <div class="member col-lg-4 col-md-6 col-xs-12">
+        <div class="member col-xl-4 col-lg-6 col-md-6 col-sm-12">
           <img class="member-image" src="img/stale_sandbech_320x320.jpg" alt="Portrait of Stale Sandbach">
           <div class="member-text">
             <p class="member-name">Ståle Sandbech</p>
             <p class="member-type">Klubbmedlem, BSK</p>
           </div>
         </div>
-        <div class="member col-lg-4 col-md-6 col-xs-12">
+        <div class="member col-xl-4 col-lg-6 col-md-6 col-sm-12">
           <img class="member-image" src="img/stale_sandbech_320x320.jpg" alt="Portrait of Stale Sandbach">
           <div class="member-text">
             <p class="member-name">Fredrik Douglas Perry</p>
             <p class="member-type">Direktemedlem</p>
           </div>
         </div>
-        <div class="member col-lg-4 col-md-6 col-xs-12">
+        <div class="member col-xl-4 col-lg-6 col-md-6 col-sm-12">
           <img class="member-image" src="img/stale_sandbech_320x320.jpg" alt="Portrait of Stale Sandbach">
           <div class="member-text">
             <p class="member-name">Torgeir Bergrem</p>
@@ -182,28 +202,54 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt modi nisi harum se
   <!-- END MEMBERS -->
 
   <!-- START INFORMATION -->
-  <section id="information" class="container-fluid">
-    <div class="col-6"></div>
-    <div class="col-6">Hallo</div>
+  <section class="information-container container-fluid">
+    <div class="row align-items-center">
+      <div class="information-text col-sm-12 col-md-6 col-lg-5">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit ullam atque, odio eius ab minus!
+          <br>
+          <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, aspernatur unde? Recusandae mollitia veritatis
+          dolorum, ullam perspiciatis iure, cum magnam nemo quaerat dolores quas sed voluptate quos deserunt unde illum.
+          <br>
+          <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit ullam atque, odio eius ab minus!</p>
+      </div>
+      <div class="information-frame frame-2 col-sm-12 col-md-6 col-lg-7">
+        <img src="img/showcase.jpg" alt="">
+      </div>
+    </div>
   </section>
   <!-- END INFORMATION -->
 
-  <!-- START FOOTER -->
-  <footer class="container-fluid align-items-center">
-    <div class="row justify-content-center">
-      <figure class="col-4">
-        <a href="http://www.snowboardforbundet.no" class="footer-brand">
-          <img src="img/SB_Logo_black.png" width="100%" alt="">
+  <!-- START BOTTOM NAV -->
+  <section class="cta-container container-fluid">
+    <div class="cta-content">
+      <div class="row text-align-center justify-content-center">
+        <p class="col-lg-6 col-md-7">Usikker på hvilket medlemskap som passer for deg? Start med å sjekke ut vårt nye direktemedlemskap.</p>
+      </div>
+      <div class="row text-align-center justify-content-center">
+        <a href="medlemskap/direkte.html">
+          <button class="btn cta-btn direct-btn col-lg-4 col-md-5 col-sm-6" type="button">Les om direktemedlemskap</button>
         </a>
-      </figure>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-4">
-        <p>snowboardforbundet.no</p>
       </div>
     </div>
-    <p>Copyright © 2018 Snowboardforbundet / Sandakerveien 24C/ inng C6 / 0473 Oslo
-    </p>
+  </section>
+  <!-- END BOTTOM NAV -->
+
+  <!-- START FOOTER -->
+  <footer class="container-fluid">
+    <div class="row justify-content-center">
+      <figure class="footer-branding col-sm-7 col-md-6 col-lg-4">
+        <a href="#">
+          <img src="../img/SB_Logo_black.png" width="100%" alt="">
+        </a>
+        <a href="http://www.snowboardforbundet.no">
+          <p class="footer-link">snowboardforbundet.no</p>
+        </a>
+      </figure>
+      <div class="row justify-content-center col-10">
+        <p class="footer-info">Copyright © 2018 Snowboardforbundet / Sandakerveien 24C / inng C6 / 0473 Oslo
+        </p>
+      </div>
+    </div>
   </footer>
   <!-- END FOOTER -->
 
